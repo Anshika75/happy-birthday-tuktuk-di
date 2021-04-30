@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    </head>
+    <body>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    font-size:16px;
+}
+main{
+    height:100vh;
+    width:100vw;
+    background-color:hotpink;   
+}
+.bg{
+    position:fixed;
+    top:0;
+    left:0;
+    background-image:url("https://images.unsplash.com/photo-1516642898673-edd1ced08e87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=1100&q=60");
+    background-size:100% 100%;
+    height:100vh;
+    width:100vw;
+}
+
+.card{
+    height:80vh;
+    width:60vw;
+    position:absolute;
+    right:20vw;
+    top:10vh;
+    background-color:green;
+    box-shadow:0 0 1vmin 1vmin #0003;
+    display:block;
+    background-color: #fad0c4;
+background-image: linear-gradient(-315deg, #fad0c4 0%, #f1a7f1 74%);
+
+}
+
+.button{
+    height:80px;
+    width:20vw;
+    background-color:#fff7;
+    position:absolute;
+    bottom:10%;
+    left:50%;
+    transform:translateX(-50%);
+    box-shadow:0 0 .5vmin .5vmin #0001;
+}
+.cardback{
+    position:absolute;
+    right:20vw;
+    top:10vh;
+    background-color:#f00;
+    height:80vh;
+    width:60vw;
+    background-color: #f9d29d;
+background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+    padding:10px;
+    font-family:"Pacifico";
+    line-height:1.3rem;
+    
+}
+
+.img{
+    position:absolute;
+    height:50%;
+    width:100%;
+    background-color:pink;
+    background-image:url("https://api.sololearn.com/Uploads/Avatars/20617819.jpg");
+    background-size:100% 100%;
+}
+
+
+.card h1{
+    position:absolute;
+    top:52%;
+    text-align:center;
+    font-weight:900;
+    font-family:"Times New Roman";
+    background: linear-gradient(45deg, #ff1493, #cc006d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card cite{
+    position:absolute;
+    bottom:5%;
+    text-align:center;
+    font-weight:700;
+    font-size:1rem;
+    background: linear-gradient(45deg, #ff4dac, #ff0088);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card .button{
+    display:grid;
+    place-items:center;
+    top:70%;
+}
+
+.card .button .fa{
+    font-size:3.7rem;
+    animation:gift 3s linear infinite;
+    color:hotpink;
+    background: linear-gradient(45deg, #ff1493, #cc006d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes gift{
+    0%,
+  100% {}
+
+  30%,
+  50%,
+  70% {
+    transform: translateX(-4px);
+  }
+
+  40%,
+  60% {
+    transform: translateX(4px);
+  }
+  80% {
+    transform: translateX(2px);
+  }
+  85% {
+    transform: translateX(-2px);
+  }
+}
+.cardback p{
+    background: linear-gradient(60deg, #ff33a0, #990052);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align:center;
+}
+.cardback h3{
+    background: linear-gradient(60deg, #ff33a0, #990052);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align:center;
+    font-family:"Times New Roman";
+}
+
+.cardback{
+    background: linear-gradient(45deg, #ffe6ea ,  #ffc0cb, #ffd1c2, #ffc2c2, #ffc2e0 );
+    background-size: 500% 100%;
+animation:a 6s linear alternate infinite;
+
+}
+
+@keyframes a {
+
+0% {
+    background-position: 0%
+}
+
+100% {
+    background-position: 100%
+}
+
+}
+.cardback, .card{
+    z-index:10;
+}
+
+    </style>
+    <audio controls style=" display:none;" loop   id="a"  >
+ <source id="audio" src="https://dl.dropbox.com/s/i8y3egtkvhydqmm/ik%20tera%20-%20maninder%20buttar%20128%20kbps.mp3?dl=0">
+    <script>
+     Swal.fire('Happy birthday Tuktuk Di🎊\n A small try🧗‍♀️ to express my gratitude🤗 \n It is quite simple😕 and boring😥 as I am a beginner😔 Sorry di due to few issues couldnt make it to your bday but aakr party wasooloongi 😁')
+        </script>  
+      </audio> 
+        <main>
+        
+            <div class="bg"></div>
+            <div class="cardback" id="cardback">
+                <p> Di, you are a guardian angel in disguise. You are perceptive, intelligent, and wise, Always helping me through good and bad. You've been the sunlight that has shone in so many ways. Through my ups and downs, right by me you stood, And you gave me your hand whenever you could. My appreciation for you has no end.
+You will always be my awesome di <br>Wishing you dreams To guide your path, Wishing you health To keep your soul happy, Wishing you pleasure To want nothing and have it, Wishing you the happiest day in the world You deserve it all! <br> 
+<h3>HAPPY BIRTHDAY TUKTUK DI</h3>
+</p>
+            </div>
+            <div class="card" id="card">
+                <div class="img"></div>
+                <h1 id="h1">HAPPY BITHDAY</h1>
+                <cite>Click on the gift to discover more</cite>
+                 <div class="button" onclick="card()"><i class="fa fa-gift" id="fa"></i></div>
+            </div>
+           
+        </main>
+        <script>
+            function card(){
+    var card = document.getElementById('card');
+    var backcard =  document.getElementById('cardback');
+    var fa =  document.getElementById('fa');
+    var h1 =  document.getElementById('h1');
+    card.style.backgroundColor="lime";
+    card.style.right="2vw";
+    card.style.width="38vw";
+    backcard.style.width="58vw";
+    backcard.style.right="40vw";
+    card.style.transition="3s linear";
+    backcard.style.transition="3s linear";
+    h1.style.transition="3s linear";
+    fa.style.animation="none";
+    h1.style.fontSize="1.7rem";
+    backcard.style.boxShadow="0 0 1vmin 1vmin #0003";
+}
+        </script>
+    </body>
+</html>
